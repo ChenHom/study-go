@@ -1,4 +1,4 @@
-package main
+package embedded
 
 import "fmt"
 
@@ -20,7 +20,7 @@ func (c Car) driver() {
 	fmt.Println("Car is being driven")
 }
 
-func main() {
+func Embedded() {
 	// 在 Go 中，當一個結構體被初始化時，其所有欄位（包括匿名欄位）都會被自動初始化為零值。
 	// 因此 Car 在建立時可以不用顯式傳入 Engine，因為它的匿名欄位 Engine 會自動初始化為 Engine{}。
 	// 這種設計讓結構體的初始化更加簡潔且直觀。
