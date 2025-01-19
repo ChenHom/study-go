@@ -1,6 +1,6 @@
 package main
 
-import "concepts/struct/embedded"
+import embedded "week1/concepts/struct"
 
 func main() {
 	embedded.Embedded()
